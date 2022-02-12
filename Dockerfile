@@ -2,11 +2,11 @@ FROM python:3.9.0
 
 WORKDIR /home/
 
-RUN echo "stack배포 할때마다 바꾸기"
+RUN echo "echo 2"
 
 RUN git clone https://github.com/matt700395/pragmatic2022_copy.git
 
-WORKDIR /home/LKLK/
+WORKDIR /home/pragmatic2022_copy/
 
 RUN python -m pip install --upgrade pip
 
