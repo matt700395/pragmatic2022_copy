@@ -4,7 +4,7 @@ WORKDIR /home/
 
 RUN echo "stack배포 할때마다 바꾸기"
 
-RUN git clone <본인 깃허브의 >
+RUN git clone https://github.com/matt700395/pragmatic2022_copy.git
 
 WORKDIR /home/LKLK/
 
